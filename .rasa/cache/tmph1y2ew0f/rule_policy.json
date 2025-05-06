@@ -1,0 +1,26 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Peran_Sebagai_Pengujung\"}}]": "utter_U_P_List_Topik",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Peran_Sebagai_Pengujung\"}}, {\"prev_action\": {\"action_name\": \"utter_U_P_List_Topik\"}, \"user\": {\"intent\": \"Peran_Sebagai_Pengujung\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Peran_Sebagai_Dosen_LeADS\"}}]": "utter_U_D_List_Topik",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Peran_Sebagai_Dosen_LeADS\"}}, {\"prev_action\": {\"action_name\": \"utter_U_D_List_Topik\"}, \"user\": {\"intent\": \"Peran_Sebagai_Dosen_LeADS\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Peran_Sebagai_Mahasiswa_LeADS\"}}]": "utter_U_M_List_Topik",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Peran_Sebagai_Mahasiswa_LeADS\"}}, {\"prev_action\": {\"action_name\": \"utter_U_M_List_Topik\"}, \"user\": {\"intent\": \"Peran_Sebagai_Mahasiswa_LeADS\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Menyapa\"}}]": "utter_U_Introduction",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Menyapa\"}}, {\"prev_action\": {\"action_name\": \"utter_U_Introduction\"}, \"user\": {\"intent\": \"Menyapa\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Terima_Kasih\"}}]": "utter_U_Terima_Kasih",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Terima_Kasih\"}}, {\"prev_action\": {\"action_name\": \"utter_U_Terima_Kasih\"}, \"user\": {\"intent\": \"Terima_Kasih\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Menyapa\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Menyapa\"}}, {\"prev_action\": {\"action_name\": \"utter_U_Introduction\"}, \"user\": {\"intent\": \"Menyapa\"}}]",
+      "predicting default action with intent restart"
+    ]
+  }
+}

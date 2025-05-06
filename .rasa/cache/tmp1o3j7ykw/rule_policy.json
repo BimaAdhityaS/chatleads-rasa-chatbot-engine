@@ -1,0 +1,40 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Terima_Kasih\"}}]": "utter_U_Terima_Kasih",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Terima_Kasih\"}}, {\"prev_action\": {\"action_name\": \"utter_U_Terima_Kasih\"}, \"user\": {\"intent\": \"Terima_Kasih\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Dosen\"}}]": "utter_U_D_1_List_Topik_Tutorial",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Dosen\"}}, {\"prev_action\": {\"action_name\": \"utter_U_D_1_List_Topik_Tutorial\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Dosen\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Mahasiswa_LeADS\"}}]": "utter_U_M_List_Topik",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Mahasiswa_LeADS\"}}, {\"prev_action\": {\"action_name\": \"utter_U_M_List_Topik\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Mahasiswa_LeADS\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Mahasiswa\"}}]": "utter_U_M_1_List_Topik_Tutorial",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Mahasiswa\"}}, {\"prev_action\": {\"action_name\": \"utter_U_M_1_List_Topik_Tutorial\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Mahasiswa\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Dosen\"}}]": "utter_U_D_List_Topik",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Dosen\"}}, {\"prev_action\": {\"action_name\": \"utter_U_D_List_Topik\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Dosen\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Dosen_LeADS\"}}]": "utter_U_D_List_Topik",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Dosen_LeADS\"}}, {\"prev_action\": {\"action_name\": \"utter_U_D_List_Topik\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Dosen_LeADS\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Pengujung_LeADS\"}}]": "utter_U_P_List_Topik",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Pengujung_LeADS\"}}, {\"prev_action\": {\"action_name\": \"utter_U_P_List_Topik\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Pengujung_LeADS\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Mahasiswa\"}}]": "utter_U_M_List_Topik",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Mahasiswa\"}}, {\"prev_action\": {\"action_name\": \"utter_U_M_List_Topik\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Mahasiswa\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Dosen\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Mahasiswa\"}}, {\"prev_action\": {\"action_name\": \"utter_U_M_1_List_Topik_Tutorial\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Mahasiswa\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Dosen\"}}, {\"prev_action\": {\"action_name\": \"utter_U_D_1_List_Topik_Tutorial\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Dosen\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Dosen_LeADS\"}}]",
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Dosen\"}}, {\"prev_action\": {\"action_name\": \"utter_U_D_List_Topik\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Dosen\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Mahasiswa\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Dosen_LeADS\"}}, {\"prev_action\": {\"action_name\": \"utter_U_D_List_Topik\"}, \"user\": {\"intent\": \"Berperan_Sebagai_Dosen_LeADS\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Mahasiswa\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Tutorial_Dosen\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Mahasiswa\"}}, {\"prev_action\": {\"action_name\": \"utter_U_M_List_Topik\"}, \"user\": {\"intent\": \"Kembali_Ke_List_Layanan_Mahasiswa\"}}]"
+    ]
+  }
+}
