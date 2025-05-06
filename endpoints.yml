@@ -27,8 +27,8 @@ action_endpoint:
 
 tracker_store:
   type: mongod
-  url: mongodb://localhost:27017
-  db: ChatLeADS
+  url: mongodb+srv://Bima_AS:12bima12@chatleads.yhkoi.mongodb.net/
+  db: test
 
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
