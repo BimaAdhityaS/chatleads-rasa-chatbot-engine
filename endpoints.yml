@@ -31,6 +31,7 @@ tracker_store:
   db: test
   username: Bima_AS
   password: 12bima12
+  auth_source: admin
 
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
