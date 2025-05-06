@@ -29,6 +29,8 @@ tracker_store:
   type: mongod
   url: mongodb+srv://Bima_AS:12bima12@chatleads.yhkoi.mongodb.net/
   db: test
+  username: Bima_AS
+  password: 12bima12
 
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
